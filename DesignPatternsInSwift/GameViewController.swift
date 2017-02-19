@@ -33,6 +33,7 @@ fileprivate func >= <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 
 
 class GameViewController: UIViewController {
+  fileprivate var gameView: GameView { return view as! GameView }
   private var turnController: TurnController!
   private var shapeFactory: ShapeFactory!
   private var shapeViewFactory: ShapeViewFactory!
@@ -40,23 +41,34 @@ class GameViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+//
 
-    // Initialize the AbstractFactory for ShapeViews in the viewDidLoad
-    //shapeViewFactory = SquareShapeViewFactory(size: gameView.sizeAvailableForShapes())
-    shapeViewFactory = SquareShapeViewFactory(size: gameView.sizeAvailableForShapes())
-    // Initialize the AbstractFactory for Shapes
-    shapeFactory = SquareShapeFactory(minProportion: 0.3, maxProportion: 0.8)
-    //shapeFactory = SquareShapeFactory(minProportion: 0.3, maxProportion: 0.8)
+    let squareShapeViewFactory = SquareShapeViewFactory(size: gameView.sizeAvailableForShapes())
+    let squareShapeFactory = SquareShapeFactory(minProportion: 0.3, maxProportion: 0.8)
+    let squareShapeViewBuilder = shapeViewBuilderForFactory(shapeViewFactory: squareShapeViewFactory)
+    let squareTurnStrategy = BasicTurnStrategy(shapeFactory: squareShapeFactory, shapeViewBuilder: squareShapeViewBuilder)
 
-    shapeViewBuilder = ShapeViewBuilder(shapeViewFactory: shapeViewFactory)
-    shapeViewBuilder.fillColor = UIColor.brown
-    shapeViewBuilder.outlineColor = UIColor.orange
-    turnController = TurnController(shapeFactory: shapeFactory, shapeViewBuilder: shapeViewBuilder)
+    let circleShapeViewFactory = CircleShapeViewFactory(size: gameView.sizeAvailableForShapes())
+    let circleShapeFactory = CircleShapeFactory(minProportion: 0.3, maxProportion: 0.8)
+    let circleShapeViewBuilder = shapeViewBuilderForFactory(shapeViewFactory: circleShapeViewFactory)
+    let circleTurnStrategy = BasicTurnStrategy(shapeFactory: circleShapeFactory, shapeViewBuilder: circleShapeViewBuilder)
+
+    let randomTurnStrategy = RandomTurnStrategy(firstStrategy: squareTurnStrategy, secondStrategy: circleTurnStrategy)
+
+    turnController = TurnController(turnStrategy: randomTurnStrategy)
+
     beginNextTurn()
   }
 
   override var prefersStatusBarHidden : Bool {
     return true
+  }
+
+  private func shapeViewBuilderForFactory(shapeViewFactory: ShapeViewFactory) -> ShapeViewBuilder {
+    let shapeViewBuilder = ShapeViewBuilder(shapeViewFactory: shapeViewFactory)
+    shapeViewBuilder.fillColor = UIColor.brown
+    shapeViewBuilder.outlineColor = UIColor.orange
+    return shapeViewBuilder
   }
 
   fileprivate func beginNextTurn() {
@@ -73,26 +85,6 @@ class GameViewController: UIViewController {
 
     gameView.addShapeViews(shapeViews)
 
-//    let shapes = shapeFactory.createShapes()
-//
-//    // Use the builder instead
-//    let shapeViews = shapeViewBuilder.buildShapeViewsForShape(shapes: shapes)
-//    // Replace shapeview creation code with factory call to create shapeviews
-//    //let shapeViews = shapeViewFactory.makeShapeViewsForShapes(shapes: shapes)
-//
-//    shapeViews.0.tapHandler = {
-//      tappedView in
-//      self.gameView.score += shapes.0.area >= shapes.1.area ? 1 : -1
-//      self.beginNextTurn()
-//    }
-//    shapeViews.1.tapHandler = {
-//      tappedView in
-//      self.gameView.score += shapes.1.area >= shapes.0.area ? 1 : -1
-//      self.beginNextTurn()
-//    }
-//
-//    gameView.addShapeViews(shapeViews)
   }
 
-  fileprivate var gameView: GameView { return view as! GameView }
 }
