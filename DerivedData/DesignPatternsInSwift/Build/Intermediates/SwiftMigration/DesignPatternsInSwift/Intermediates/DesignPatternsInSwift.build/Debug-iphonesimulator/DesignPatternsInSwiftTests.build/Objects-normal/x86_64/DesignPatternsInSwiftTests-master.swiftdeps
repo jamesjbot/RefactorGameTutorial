@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "d77a9d068126609407fbaeca2aa7864a"
-build_time: [540765319, 704686000]
-inputs:
-  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwiftTests/DesignPatternsInSwiftTests.swift": [464822018, 0]
