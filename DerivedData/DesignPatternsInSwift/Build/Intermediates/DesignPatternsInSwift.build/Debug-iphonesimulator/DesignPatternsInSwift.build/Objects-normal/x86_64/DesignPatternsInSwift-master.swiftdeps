@@ -1,0 +1,15 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "a3594ccb63f00ed8021ac1f7b3d09a09"
+build_time: [540804320, 24973000]
+inputs:
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/Turn.swift": [540801424, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/Shape.swift": [540797258, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameViewController.swift": [540802406, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift": [540765399, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/Utils.swift": [540765353, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/ShapeViewBuilder.swift": [540803932, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/ShapeViewFactory.swift": [540797670, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/ShapeView.swift": [540790280, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/ShapeFactory.swift": [540789778, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/AppDelegate.swift": [540765353, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/TurnController.swift": [540802198, 0]

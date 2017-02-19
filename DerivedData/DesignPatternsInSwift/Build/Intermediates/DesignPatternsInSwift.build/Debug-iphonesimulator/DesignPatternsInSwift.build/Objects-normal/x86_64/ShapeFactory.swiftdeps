@@ -1,0 +1,96 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ShapeFactory"
+- "CircleShapeFactory"
+- "SquareShapeFactory"
+provides-nominal:
+- "P21DesignPatternsInSwift12ShapeFactory"
+- "C21DesignPatternsInSwift18CircleShapeFactory"
+- "C21DesignPatternsInSwift18SquareShapeFactory"
+provides-member:
+- ["P21DesignPatternsInSwift12ShapeFactory", ""]
+- ["C21DesignPatternsInSwift18CircleShapeFactory", ""]
+- ["C21DesignPatternsInSwift18SquareShapeFactory", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "CircleShape"
+- "Shape"
+- "SquareShapeFactory"
+- !private "SquareShape"
+- !private "Utils"
+- "CGFloat"
+- "AssignmentPrecedence"
+- "CircleShapeFactory"
+- "ShapeFactory"
+depends-member:
+- !private ["Ps9AnyObject", "CircleShape"]
+- !private ["Ps9AnyObject", "SquareShape"]
+- !private ["Ps9AnyObject", "Utils"]
+- ["Ps9AnyObject", "createShapes"]
+- !private ["Ps9AnyObject", "diameter"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "maxProportion"]
+- !private ["Ps9AnyObject", "minProportion"]
+- !private ["Ps9AnyObject", "randomBetweenLower"]
+- !private ["Ps9AnyObject", "sideLength"]
+- ["Ps9AnyObject", ""]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["C21DesignPatternsInSwift11CircleShape", "deinit"]
+- !private ["C21DesignPatternsInSwift11CircleShape", "diameter"]
+- !private ["C21DesignPatternsInSwift11CircleShape", "init"]
+- ["C21DesignPatternsInSwift18CircleShapeFactory", "CGFloat"]
+- !private ["C21DesignPatternsInSwift18CircleShapeFactory", "CircleShape"]
+- ["C21DesignPatternsInSwift18CircleShapeFactory", "Shape"]
+- !private ["C21DesignPatternsInSwift18CircleShapeFactory", "Utils"]
+- ["C21DesignPatternsInSwift18CircleShapeFactory", "createShapes"]
+- ["C21DesignPatternsInSwift18CircleShapeFactory", "deinit"]
+- ["C21DesignPatternsInSwift18CircleShapeFactory", "init"]
+- ["C21DesignPatternsInSwift18CircleShapeFactory", "maxProportion"]
+- ["C21DesignPatternsInSwift18CircleShapeFactory", "minProportion"]
+- !private ["C21DesignPatternsInSwift5Shape", "diameter"]
+- !private ["C21DesignPatternsInSwift5Shape", "init"]
+- !private ["C21DesignPatternsInSwift5Shape", "sideLength"]
+- !private ["P21DesignPatternsInSwift12ShapeFactory", "CircleShape"]
+- ["P21DesignPatternsInSwift12ShapeFactory", "Shape"]
+- !private ["P21DesignPatternsInSwift12ShapeFactory", "SquareShape"]
+- !private ["P21DesignPatternsInSwift12ShapeFactory", "Utils"]
+- ["P21DesignPatternsInSwift12ShapeFactory", "createShapes"]
+- !private ["P21DesignPatternsInSwift12ShapeFactory", "maxProportion"]
+- !private ["P21DesignPatternsInSwift12ShapeFactory", "minProportion"]
+- ["P21DesignPatternsInSwift12ShapeFactory", ""]
+- ["C21DesignPatternsInSwift11SquareShape", "deinit"]
+- !private ["C21DesignPatternsInSwift11SquareShape", "init"]
+- !private ["C21DesignPatternsInSwift11SquareShape", "sideLength"]
+- ["C21DesignPatternsInSwift18SquareShapeFactory", "CGFloat"]
+- ["C21DesignPatternsInSwift18SquareShapeFactory", "Shape"]
+- !private ["C21DesignPatternsInSwift18SquareShapeFactory", "SquareShape"]
+- !private ["C21DesignPatternsInSwift18SquareShapeFactory", "Utils"]
+- ["C21DesignPatternsInSwift18SquareShapeFactory", "createShapes"]
+- ["C21DesignPatternsInSwift18SquareShapeFactory", "deinit"]
+- ["C21DesignPatternsInSwift18SquareShapeFactory", "init"]
+- ["C21DesignPatternsInSwift18SquareShapeFactory", "maxProportion"]
+- ["C21DesignPatternsInSwift18SquareShapeFactory", "minProportion"]
+- !private ["C21DesignPatternsInSwift5Utils", "randomBetweenLower"]
+depends-nominal:
+- "Ps9AnyObject"
+- "V12CoreGraphics7CGFloat"
+- "C21DesignPatternsInSwift11CircleShape"
+- "C21DesignPatternsInSwift18CircleShapeFactory"
+- !private "C21DesignPatternsInSwift5Shape"
+- "P21DesignPatternsInSwift12ShapeFactory"
+- "C21DesignPatternsInSwift11SquareShape"
+- "C21DesignPatternsInSwift18SquareShapeFactory"
+- !private "C21DesignPatternsInSwift5Utils"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "ce2282a08bab0b1b47ee62b6db148051"

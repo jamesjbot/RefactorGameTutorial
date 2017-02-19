@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "fb27aa87675df57d4c9ea2b52d45fff5"
+build_time: [540765302, 478764000]
+inputs:
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/Shape.swift": [466725473, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameViewController.swift": [484803125, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift": [466726088, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/Utils.swift": [466725581, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/ShapeView.swift": [466726160, 0]
+  "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/AppDelegate.swift": [466726198, 0]

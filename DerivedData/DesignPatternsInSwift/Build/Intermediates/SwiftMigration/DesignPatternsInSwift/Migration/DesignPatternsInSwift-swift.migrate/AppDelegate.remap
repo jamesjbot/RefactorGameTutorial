@@ -1,0 +1,19 @@
+[
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/AppDelegate.swift",
+  "offset": 297,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/AppDelegate.swift",
+  "offset": 371,
+  "remove": 8,
+  "text": "UIApplicationLaunchOptionsKey",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/AppDelegate.swift",
+  "offset": 383,
+  "remove": 7,
+  "text": "y",
+ }
+]

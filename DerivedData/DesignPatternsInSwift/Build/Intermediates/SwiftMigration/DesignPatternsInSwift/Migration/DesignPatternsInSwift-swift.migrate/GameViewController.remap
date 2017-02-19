@@ -1,0 +1,30 @@
+[
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameViewController.swift",
+  "offset": 183,
+  "remove": 7,
+  "text": "// FIXME: comparison operators with optionals were removed from the Swift Standard Libary.\n// Consider refactoring the code to use the non-optional operators.\nfileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {\n  switch (lhs, rhs) {\n  case let (l?, r?):\n    return l < r\n  case (nil, _?):\n    return true\n  default:\n    return false\n  }\n}\n\n// FIXME: comparison operators with optionals were removed from the Swift Standard Libary.\n// Consider refactoring the code to use the non-optional operators.\nfileprivate func >= <T : Comparable>(lhs: T?, rhs: T?) -> Bool {\n  switch (lhs, rhs) {\n  case let (l?, r?):\n    return l >= r\n  default:\n    return !(lhs < rhs)\n  }\n}\n\n\nclass ",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameViewController.swift",
+  "offset": 322,
+  "remove": 4,
+  "text": "var",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameViewController.swift",
+  "offset": 349,
+  "remove": 5,
+  "text": " :",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameViewController.swift",
+  "offset": 385,
+  "text": "file",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameViewController.swift",
+  "offset": 1479,
+  "text": "file",
+ }
+]

@@ -1,0 +1,69 @@
+[
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift",
+  "offset": 614,
+  "remove": 1,
+  "text": ".z",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift",
+  "offset": 955,
+  "remove": 15,
+  "text": " ",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift",
+  "offset": 986,
+  "remove": 1,
+  "text": ".maxY",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift",
+  "offset": 1298,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift",
+  "offset": 1818,
+  "text": "file",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift",
+  "offset": 1860,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift",
+  "offset": 2019,
+  "remove": 1,
+  "text": "(o",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift",
+  "offset": 2025,
+  "remove": 1,
+  "text": ": ",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift",
+  "offset": 2095,
+  "remove": 8,
+  "text": "d",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift",
+  "offset": 2118,
+  "remove": 8,
+  "text": "k",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift",
+  "offset": 2136,
+  "text": "file",
+ },
+ {
+  "file": "/Users/jamesjongs/Downloads/DesignPatternsInSwift_Starter/DesignPatternsInSwift/GameView.swift",
+  "offset": 2171,
+  "text": "file",
+ }
+]

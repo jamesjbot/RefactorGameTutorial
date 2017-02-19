@@ -1,0 +1,203 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ShapeViewFactory"
+- "CircleShapeViewFactory"
+- "SquareShapeViewFactory"
+provides-nominal:
+- "P21DesignPatternsInSwift16ShapeViewFactory"
+- "C21DesignPatternsInSwift22CircleShapeViewFactory"
+- "C21DesignPatternsInSwift22SquareShapeViewFactory"
+provides-member:
+- ["P21DesignPatternsInSwift16ShapeViewFactory", ""]
+- ["C21DesignPatternsInSwift22CircleShapeViewFactory", ""]
+- ["C21DesignPatternsInSwift22SquareShapeViewFactory", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ShapeView"
+- !private "SquareShapeView"
+- "ShapeViewFactory"
+- "Shape"
+- !private "*"
+- !private "CircleShape"
+- "CircleShapeViewFactory"
+- !private "CircleShapeView"
+- !private "SquareShape"
+- "AssignmentPrecedence"
+- "SquareShapeViewFactory"
+- !private "CGRect"
+- "CastingPrecedence"
+- "CGSize"
+depends-member:
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "CircleShapeView"]
+- !private ["Ps9AnyObject", "SquareShapeView"]
+- !private ["Ps9AnyObject", "diameter"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "makeShapeViewsForShapes"]
+- !private ["Ps9AnyObject", "shape"]
+- !private ["Ps9AnyObject", "sideLength"]
+- ["Ps9AnyObject", "size"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "shape"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "init"]
+- ["VSC6CGSize", "deinit"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "shape"]
+- ["C21DesignPatternsInSwift11CircleShape", "deinit"]
+- !private ["C21DesignPatternsInSwift11CircleShape", "diameter"]
+- ["C21DesignPatternsInSwift15CircleShapeView", "deinit"]
+- !private ["C21DesignPatternsInSwift15CircleShapeView", "init"]
+- !private ["C21DesignPatternsInSwift15CircleShapeView", "shape"]
+- !private ["C21DesignPatternsInSwift22CircleShapeViewFactory", "CGRect"]
+- ["C21DesignPatternsInSwift22CircleShapeViewFactory", "CGSize"]
+- !private ["C21DesignPatternsInSwift22CircleShapeViewFactory", "CircleShape"]
+- !private ["C21DesignPatternsInSwift22CircleShapeViewFactory", "CircleShapeView"]
+- ["C21DesignPatternsInSwift22CircleShapeViewFactory", "Shape"]
+- ["C21DesignPatternsInSwift22CircleShapeViewFactory", "ShapeView"]
+- ["C21DesignPatternsInSwift22CircleShapeViewFactory", "deinit"]
+- ["C21DesignPatternsInSwift22CircleShapeViewFactory", "init"]
+- ["C21DesignPatternsInSwift22CircleShapeViewFactory", "makeShapeViewsForShapes"]
+- ["C21DesignPatternsInSwift22CircleShapeViewFactory", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "shape"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "shape"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "shape"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "shape"]
+- !private ["Si", "deinit"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "shape"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "shape"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "shape"]
+- ["C21DesignPatternsInSwift5Shape", "deinit"]
+- !private ["C21DesignPatternsInSwift5Shape", "diameter"]
+- !private ["C21DesignPatternsInSwift5Shape", "sideLength"]
+- !private ["C21DesignPatternsInSwift9ShapeView", "init"]
+- !private ["C21DesignPatternsInSwift9ShapeView", "shape"]
+- !private ["P21DesignPatternsInSwift16ShapeViewFactory", "CGRect"]
+- ["P21DesignPatternsInSwift16ShapeViewFactory", "CGSize"]
+- !private ["P21DesignPatternsInSwift16ShapeViewFactory", "CircleShapeView"]
+- ["P21DesignPatternsInSwift16ShapeViewFactory", "Shape"]
+- ["P21DesignPatternsInSwift16ShapeViewFactory", "ShapeView"]
+- !private ["P21DesignPatternsInSwift16ShapeViewFactory", "SquareShapeView"]
+- ["P21DesignPatternsInSwift16ShapeViewFactory", "makeShapeViewsForShapes"]
+- ["P21DesignPatternsInSwift16ShapeViewFactory", "size"]
+- ["P21DesignPatternsInSwift16ShapeViewFactory", ""]
+- ["C21DesignPatternsInSwift11SquareShape", "deinit"]
+- !private ["C21DesignPatternsInSwift11SquareShape", "sideLength"]
+- ["C21DesignPatternsInSwift15SquareShapeView", "deinit"]
+- !private ["C21DesignPatternsInSwift15SquareShapeView", "init"]
+- !private ["C21DesignPatternsInSwift15SquareShapeView", "shape"]
+- !private ["C21DesignPatternsInSwift22SquareShapeViewFactory", "CGRect"]
+- ["C21DesignPatternsInSwift22SquareShapeViewFactory", "CGSize"]
+- ["C21DesignPatternsInSwift22SquareShapeViewFactory", "Shape"]
+- ["C21DesignPatternsInSwift22SquareShapeViewFactory", "ShapeView"]
+- !private ["C21DesignPatternsInSwift22SquareShapeViewFactory", "SquareShape"]
+- !private ["C21DesignPatternsInSwift22SquareShapeViewFactory", "SquareShapeView"]
+- ["C21DesignPatternsInSwift22SquareShapeViewFactory", "deinit"]
+- ["C21DesignPatternsInSwift22SquareShapeViewFactory", "init"]
+- ["C21DesignPatternsInSwift22SquareShapeViewFactory", "makeShapeViewsForShapes"]
+- ["C21DesignPatternsInSwift22SquareShapeViewFactory", "size"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "shape"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "shape"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "shape"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "shape"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "shape"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "shape"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "shape"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "shape"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "shape"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "shape"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "shape"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "shape"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "shape"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- "V12CoreGraphics7CGFloat"
+- "VSC6CGRect"
+- "VSC6CGSize"
+- !private "Ps7CVarArg"
+- "C21DesignPatternsInSwift11CircleShape"
+- "C21DesignPatternsInSwift15CircleShapeView"
+- "C21DesignPatternsInSwift22CircleShapeViewFactory"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "PSo8NSCoding"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "C21DesignPatternsInSwift5Shape"
+- !private "C21DesignPatternsInSwift9ShapeView"
+- "P21DesignPatternsInSwift16ShapeViewFactory"
+- "C21DesignPatternsInSwift11SquareShape"
+- "C21DesignPatternsInSwift15SquareShapeView"
+- "C21DesignPatternsInSwift22SquareShapeViewFactory"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "ced802e3fc6ac5b52900ae821362f125"
