@@ -1,5 +1,5 @@
 # RefactorGameTutorial
-A tutorial project on how to refactor an using design patterns.
+A Ray Wenderlich https://www.raywenderlich.com/86053/intermediate-design-patterns-in-swift tutorial project on how to refactor an using design patterns.
 
 Design Patterns used:
 * Abstract Factory
